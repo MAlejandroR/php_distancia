@@ -6409,7 +6409,7 @@ limitations under the License.
           }
 
           var query = $(this).val();
-          var searchPage = 'http://localhost:1313/distancia/dwes/php/search/?q=' + query;
+          var searchPage = 'http://localhost:33011/distancia/dwes/php/search/?q=' + query;
           document.location = searchPage;
 
           return false;

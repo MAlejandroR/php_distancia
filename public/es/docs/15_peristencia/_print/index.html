@@ -1,10 +1,10 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="es" class="no-js">
-  <head><script src="/distancia/dwes/php/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=distancia/dwes/php/livereload" data-no-instant defer></script>
+  <head><script src="/distancia/dwes/php/livereload.js?mindelay=10&amp;v=2&amp;port=33011&amp;path=distancia/dwes/php/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="canonical" type="text/html" href="http://localhost:1313/distancia/dwes/php/es/docs/13_formularios/">
-<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/distancia/dwes/php/es/docs/13_formularios/index.xml">
+<link rel="canonical" type="text/html" href="http://localhost:33011/distancia/dwes/php/es/docs/15_peristencia/">
+<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:33011/distancia/dwes/php/es/docs/15_peristencia/index.xml">
 <meta name="robots" content="noindex, nofollow">
 
 
@@ -19,24 +19,27 @@
 <link rel="icon" type="image/png" href="/distancia/dwes/php/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/distancia/dwes/php/favicons/android-192x192.png" sizes="192x192">
 
-<title>Formularios | Desarrollo Web en Entorno Servidor</title>
+<title>Persistencia | Desarrollo Web en Entorno Servidor</title>
 <meta name="description" content="Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.">
 
-<meta property="og:url" content="http://localhost:1313/distancia/dwes/php/es/docs/13_formularios/">
+<meta property="og:url" content="http://localhost:33011/distancia/dwes/php/es/docs/15_peristencia/">
   <meta property="og:site_name" content="Desarrollo Web en Entorno Servidor">
-  <meta property="og:title" content="Formularios">
-  <meta property="og:description" content="Conceptos de formularios WikiEducator Redirigiendo en formularios WikiEducator">
+  <meta property="og:title" content="Persistencia">
+  <meta property="og:description" content="La persistencia en php La persistencia permite conservar los datos entre distintas interacciones entre el cliente y el servidor, asegurando que la información no se pierda durante la navegación o el cierre de la sesión. En la programación web , el protocolo HTTP es sin estado (stateless), lo que significa que no guarda información sobre interacciones previas entre el cliente y el servidor.
+Esta característica, puede suponer una limitación () para aplicaciones que necesitan recordar datos entre solicitudes, como las preferencias de usuario, las sesiones activas o los datos en procesos largos.">
   <meta property="og:locale" content="es">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Formularios">
-  <meta itemprop="description" content="Conceptos de formularios WikiEducator Redirigiendo en formularios WikiEducator">
+  <meta itemprop="name" content="Persistencia">
+  <meta itemprop="description" content="La persistencia en php La persistencia permite conservar los datos entre distintas interacciones entre el cliente y el servidor, asegurando que la información no se pierda durante la navegación o el cierre de la sesión. En la programación web , el protocolo HTTP es sin estado (stateless), lo que significa que no guarda información sobre interacciones previas entre el cliente y el servidor.
+Esta característica, puede suponer una limitación () para aplicaciones que necesitan recordar datos entre solicitudes, como las preferencias de usuario, las sesiones activas o los datos en procesos largos.">
   <meta itemprop="datePublished" content="2024-10-15T07:04:49+02:00">
   <meta itemprop="dateModified" content="2024-10-15T07:04:49+02:00">
-  <meta itemprop="wordCount" content="8">
+  <meta itemprop="wordCount" content="302">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Formularios">
-  <meta name="twitter:description" content="Conceptos de formularios WikiEducator Redirigiendo en formularios WikiEducator">
+  <meta name="twitter:title" content="Persistencia">
+  <meta name="twitter:description" content="La persistencia en php La persistencia permite conservar los datos entre distintas interacciones entre el cliente y el servidor, asegurando que la información no se pierda durante la navegación o el cierre de la sesión. En la programación web , el protocolo HTTP es sin estado (stateless), lo que significa que no guarda información sobre interacciones previas entre el cliente y el servidor.
+Esta característica, puede suponer una limitación () para aplicaciones que necesitan recordar datos entre solicitudes, como las preferencias de usuario, las sesiones activas o los datos en procesos largos.">
 
 
 <link href="/distancia/dwes/php/scss/main.css" rel="stylesheet">
@@ -138,13 +141,13 @@
 Versión imprimible multipagina.
 <a href="#" onclick="print();return false;">Haga click aquí para imprimir</a>.
 </p><p>
-<a href="/distancia/dwes/php/es/docs/13_formularios/">Volver a la vista normal de esta página</a>.
+<a href="/distancia/dwes/php/es/docs/15_peristencia/">Volver a la vista normal de esta página</a>.
 </p>
 </div>
 
 
 
-<h1 class="title">Formularios</h1>
+<h1 class="title">Persistencia</h1>
 
 
 
@@ -161,7 +164,15 @@ Versión imprimible multipagina.
     
     
 	
-<li>1: <a href="#pg-1c857a4c45a512e20fda4cbcd70440b1">Ejercicios </a></li>
+<li>1: <a href="#pg-0772706042c33fe0fae08c10e49c1075">Cookies</a></li>
+
+
+    
+  
+    
+    
+	
+<li>2: <a href="#pg-fe3c76c145b6f0293f8c5ffd5648082e">Sesiones</a></li>
 
 
     
@@ -171,13 +182,56 @@ Versión imprimible multipagina.
 
 
 <div class="content">
-      <h2 id="conceptos-de-formularios">Conceptos de formularios</h2>
-<div class="iframe-container">
-<iframe src="https://es.wikieducator.org/index.php?curid=4375" width="100%" height="17100">WikiEducator </iframe>
+      <h3 id="la-persistencia-en-php">La persistencia en php</h3>
+<p><div class="definicion-concepto">
+  <div class="definicion-titulo">
+    
+    <i class="fas fa-info-circle" aria-hidden="true"></i>
+    
+    <strong></strong>
+  </div>
+  <div class="definicion-contenido">
+    
+
+<strong>
+<span class="font-weight-bold text-primary">
+
+    La persistencia
+
+
+</span>
+</strong>
+ permite conservar los datos entre distintas interacciones entre el cliente y el servidor, asegurando que la información no se pierda durante la navegación o el cierre de la sesión.
+
+  </div>
 </div>
-<h2 id="redirigiendo-en-formularios">Redirigiendo en formularios</h2>
+
+<strong>
+<span class="font-weight-bold text-primary">
+
+    En la programación web
+
+
+</span>
+</strong>
+, el protocolo HTTP es <strong>sin estado</strong> (stateless), lo que significa que no guarda información sobre interacciones previas entre el cliente y el servidor.</p>
+<p>Esta característica, puede suponer  una limitación () para aplicaciones que necesitan recordar datos entre solicitudes, como las preferencias de usuario, las sesiones activas o los datos en procesos largos.</p>
+<p>Para superar esta limitación, existen diversas estrategias de persistencia que permiten mantener la información necesaria:</p>
+<ul>
+<li><strong>Campos ocultos</strong>: Utilizar inputs ocultos en formularios para transferir datos entre páginas. Esta técnica es sencilla pero limitada a interacciones basadas en formularios.</li>
+<li><strong>Sesiones</strong>: Guardar información temporalmente en el servidor, asociada a un cliente mediante un identificador que suele almacenarse en cookies o en la URL.</li>
+<li><strong>Cookies</strong>: Almacenar pequeños fragmentos de datos en el navegador del cliente que persisten entre visitas. Son útiles para recordar preferencias o configuraciones, aunque tienen limitaciones de tamaño y posibles problemas de privacidad.</li>
+<li><strong>Ficheros</strong>: Guardar datos en archivos en el servidor. Es una solución simple y rápida para pequeños volúmenes de información, pero no escalable para sistemas grandes.</li>
+<li><strong>Bases de datos</strong>: Utilizar sistemas robustos para almacenar información estructurada y persistente. Son ideales para aplicaciones complejas que requieren escalabilidad.</li>
+</ul>
+<p>Además, en desarrollos modernos, encontramos otras opciones como:</p>
+<ul>
+<li><strong>Storage del navegador</strong>: APIs como <code>localStorage</code> y <code>sessionStorage</code> permiten guardar datos directamente en el navegador, facilitando aplicaciones dinámicas sin necesidad de enviar solicitudes constantes al servidor.</li>
+<li><strong>JWT (JSON Web Tokens)</strong>: Utilizar tokens para mantener el estado de la autenticación o datos entre cliente y servidor, especialmente en aplicaciones basadas en APIs REST.</li>
+</ul>
+<p>Estas estrategias pueden combinarse según las necesidades específicas de la aplicación.</p>
 <div class="iframe-container">
-<iframe src="https://es.wikieducator.org/index.php?curid=4376" width="100%" height="4800">WikiEducator </iframe>
+<iframe src="https://es.wikieducator.org/index.php?curid=6679" width="100%" height="2500">WikiEducator </iframe>
 </div>
 
 </div>
@@ -198,13 +252,34 @@ Versión imprimible multipagina.
 	
     
 
-<div class="td-content" style="">
+<div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-1c857a4c45a512e20fda4cbcd70440b1">1 - Ejercicios </h1>
+	<h1 id="pg-0772706042c33fe0fae08c10e49c1075">1 - Cookies</h1>
     
-	<h3 id="practicando">Practicando</h3>
+	<h3 id="las-cookies-en-php">Las cookies en php</h3>
 <div class="iframe-container">
-<iframe src="https://es.wikieducator.org/index.php?curid=6675" width="100%" height="5437">WikiEducator </iframe>
+<iframe src="https://es.wikieducator.org/index.php?curid=4414" width="100%" height="8000">WikiEducator </iframe>
+</div>
+
+</div>
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-fe3c76c145b6f0293f8c5ffd5648082e">2 - Sesiones</h1>
+    
+	<h3 id="sesiones">Sesiones</h3>
+<div class="iframe-container">
+<iframe src="https://es.wikieducator.org/index.php?curid=4545" width="100%" height="8000">WikiEducator </iframe>
 </div>
 
 </div>
