@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Desarrollo web en entorno servidor on Desarrollo Web en Entorno Servidor</title>
-    <link>http://localhost:1313/distancia/dwes/php/es/</link>
+    <link>https://web.infenlaces.com/distancia/dwes/php/es/</link>
     <description>Recent content in Desarrollo web en entorno servidor on Desarrollo Web en Entorno Servidor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 15 Oct 2024 07:04:49 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/distancia/dwes/php/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://web.infenlaces.com/distancia/dwes/php/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cookies</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/15_peristencia/1_cookies/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/15_peristencia/1_cookies/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/15_peristencia/1_cookies/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/15_peristencia/1_cookies/</guid>
       <description>Las cookies en php WikiEducator </description>
     </item>
     <item>
       <title>OOP en PHP</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/0_b%C3%A1sico/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/0_b%C3%A1sico/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/0_b%C3%A1sico/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/0_b%C3%A1sico/</guid>
       <description>Conceptos de OOP en PHP WikiEducator </description>
     </item>
     <item>
       <title>Sintaxis</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/1_sintaxis/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/1_sintaxis/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/1_sintaxis/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/1_sintaxis/</guid>
       <description>Sintaxis de OOP en PHP WikiEducator </description>
     </item>
     <item>
       <title>Herencia</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/2_herencia/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/2_herencia/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/2_herencia/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/2_herencia/</guid>
       <description>Herencia en php WikiEducator </description>
     </item>
     <item>
       <title>Sesiones</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/15_peristencia/2_sesiones/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/15_peristencia/2_sesiones/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/15_peristencia/2_sesiones/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/15_peristencia/2_sesiones/</guid>
       <description>Sesiones WikiEducator </description>
     </item>
     <item>
       <title>Sobrecarga</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/4_estatico/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/4_estatico/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/4_estatico/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/4_estatico/</guid>
       <description>Herencia en php WikiEducator </description>
     </item>
     <item>
       <title>Elementos estáticos</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/3_sobrecarga/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/3_sobrecarga/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/16_objetos/3_sobrecarga/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/16_objetos/3_sobrecarga/</guid>
       <description>Elementos estáticos WikiEducator </description>
     </item>
     <item>
       <title>Ejercicios </title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/13_arrays/ejercicios/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/13_arrays/ejercicios/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/13_arrays/ejercicios/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/13_arrays/ejercicios/</guid>
       <description>Practicando WikiEducator </description>
     </item>
     <item>
       <title>Ejercicios </title>
-      <link>http://localhost:1313/distancia/dwes/php/es/docs/14_formularios/ejercicios/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/docs/14_formularios/ejercicios/</link>
       <pubDate>Tue, 15 Oct 2024 07:04:49 +0200</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/docs/14_formularios/ejercicios/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/docs/14_formularios/ejercicios/</guid>
       <description>Practicando con formularios WikiEducator </description>
     </item>
     <item>
       <title>Search Results</title>
-      <link>http://localhost:1313/distancia/dwes/php/es/search/</link>
+      <link>https://web.infenlaces.com/distancia/dwes/php/es/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/distancia/dwes/php/es/search/</guid>
+      <guid>https://web.infenlaces.com/distancia/dwes/php/es/search/</guid>
       <description></description>
     </item>
   </channel>

@@ -17,9 +17,8 @@ Consultas y sentencias
 
 ## Mysql un gestor de bases de datos
 <div class="iframe-container">
-<iframe src="https://es.wikieducator.org/index.php?oldid=29259" width="100%" height="18638">WikiEducator </iframe>
+<iframe src="https://es.wikieducator.org/index.php?curid=4460" width="100%" height="24500">WikiEducator </iframe>
 </div>
-
 
 
 
